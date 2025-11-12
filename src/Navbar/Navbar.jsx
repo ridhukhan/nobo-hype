@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import PrivecyPolicy from '../Pages/PrivecyPolicy'
 const Navbar = () => {
   const [openmenu,setOpenmenu]=useState(false)
+=======
+import React from 'react'
+import { Link } from 'react-router-dom'
+import './Navbar.css'
+const Navbar = () => {
+>>>>>>> e03a8220ed18943abc6a9c0a552bf17254b4692b
   return (
     <div className='NavBar'>
         <ul>
@@ -13,6 +20,7 @@ const Navbar = () => {
                <li><Link to="/Clothing">Clothing</Link></li>
                 <li><Link to="/Contact">Contact</Link></li>
         </ul>
+<<<<<<< HEAD
         <div className='dott' onClick={()=>setOpenmenu(!openmenu)}>
 <hr />
 <hr />
@@ -33,6 +41,8 @@ const Navbar = () => {
     </div>
   ):null
 }
+=======
+>>>>>>> e03a8220ed18943abc6a9c0a552bf17254b4692b
     </div>
   )
 }

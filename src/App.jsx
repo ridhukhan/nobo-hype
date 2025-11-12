@@ -10,8 +10,11 @@ import TrendyAirPodsDetails from "./Component/AirpodsPro/TrendyAirPodsDetails"
 import TrendyDetails from "./Component/Trendtyw/TrendyDetails"
 import LuxaryDetails from "./Component/Luxaryw/LuxaryDetails"
 import LediesDetails from "./Component/Lediesw/LediesDetails"
+<<<<<<< HEAD
 import PrivecyPolicy from "./Pages/PrivecyPolicy"
 import TermsCondition from "./Pages/TermsCondition"
+=======
+>>>>>>> e03a8220ed18943abc6a9c0a552bf17254b4692b
 function App() {
   
 
@@ -30,8 +33,13 @@ function App() {
 <Route path="/LediesDetails" element={<LediesDetails/>}/>
 <Route path="/TrendyAirPodsDetails" element={<TrendyAirPodsDetails/>}/>
 <Route path="/NewAirPodsDetails" element={<NewAirPodsDetails/>}/>
+<<<<<<< HEAD
 <Route path="/PrivecyPolicy" element={<PrivecyPolicy/>}/>
 <Route path="/TermsCondition" element={<TermsCondition/>}/>
+=======
+
+
+>>>>>>> e03a8220ed18943abc6a9c0a552bf17254b4692b
 
     </Routes>
   

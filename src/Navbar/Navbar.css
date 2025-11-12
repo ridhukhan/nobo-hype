@@ -1,5 +1,9 @@
 .NavBar{
+<<<<<<< HEAD
    
+=======
+    justify-content: center;
+>>>>>>> e03a8220ed18943abc6a9c0a552bf17254b4692b
     display: flex;
     background-color: burlywood;
     width: 100%;
@@ -9,6 +13,7 @@
     z-index: 1000;
     top: 0;
     box-shadow: 2px 9px 16px #444;
+<<<<<<< HEAD
   
 }
 .NavBar ul{
@@ -47,3 +52,22 @@
 
    
 
+=======
+}
+.NavBar ul li{
+    list-style: none;
+    display: inline;
+    margin: 5px;
+    text-decoration: none;
+    font-size: large;
+}
+@media screen and (max-width: 414px){
+  .NavBar ul li{
+    list-style: none;
+    display: inline;
+    margin: 5px;
+    text-decoration: none;
+    font-size: small;
+}  
+}
+>>>>>>> e03a8220ed18943abc6a9c0a552bf17254b4692b
