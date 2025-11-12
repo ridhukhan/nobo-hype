@@ -53,7 +53,7 @@ const PrivecyPolicy = () => {
         us.
       </p>
 
-      <h3>Contact</h3>
+      <h3>Contact us</h3>
       <p>Email: prakritirshandhane@gmail.com</p>
     </div>
   )
