@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
+import PrivecyPolicy from '../Pages/PrivecyPolicy'
 const Navbar = () => {
+  const [openmenu,setOpenmenu]=useState(false)
   return (
     <div className='NavBar'>
         <ul>
@@ -11,6 +13,26 @@ const Navbar = () => {
                <li><Link to="/Clothing">Clothing</Link></li>
                 <li><Link to="/Contact">Contact</Link></li>
         </ul>
+        <div className='dott' onClick={()=>setOpenmenu(!openmenu)}>
+<hr />
+<hr />
+<hr />
+ </div>
+{
+  openmenu ? (
+    <div className='menubar'>
+      <ul>
+        <li>
+          <Link to="/PrivecyPolicy">Privecy & Policy</Link>
+        </li>
+        <li>
+          <Link to="/TermsCondition">Terms & Service</Link>
+        </li>
+
+      </ul>
+    </div>
+  ):null
+}
     </div>
   )
 }

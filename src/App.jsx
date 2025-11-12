@@ -10,6 +10,8 @@ import TrendyAirPodsDetails from "./Component/AirpodsPro/TrendyAirPodsDetails"
 import TrendyDetails from "./Component/Trendtyw/TrendyDetails"
 import LuxaryDetails from "./Component/Luxaryw/LuxaryDetails"
 import LediesDetails from "./Component/Lediesw/LediesDetails"
+import PrivecyPolicy from "./Pages/PrivecyPolicy"
+import TermsCondition from "./Pages/TermsCondition"
 function App() {
   
 
@@ -28,8 +30,8 @@ function App() {
 <Route path="/LediesDetails" element={<LediesDetails/>}/>
 <Route path="/TrendyAirPodsDetails" element={<TrendyAirPodsDetails/>}/>
 <Route path="/NewAirPodsDetails" element={<NewAirPodsDetails/>}/>
-
-
+<Route path="/PrivecyPolicy" element={<PrivecyPolicy/>}/>
+<Route path="/TermsCondition" element={<TermsCondition/>}/>
 
     </Routes>
   
