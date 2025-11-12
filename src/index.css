@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @media screen and (max-width: 500px){
     *{
         width: 100%;
@@ -6,12 +6,11 @@
         margin: 0;
     }
     body{
-        width: 100%;
-        
-=======
+        width: 100%;}
+    }
 @media screen and (max-width: 430px){
     *{
         width: 100%;
->>>>>>> e03a8220ed18943abc6a9c0a552bf17254b4692b
+
     }
 }
