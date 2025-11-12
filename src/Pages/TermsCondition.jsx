@@ -22,7 +22,7 @@ const TermsCondition = () => {
         Orders depend on availability and payment is processed via secure third-party gateways.
       </p>
 
-      <h3>4. Shipping</h3>
+      <h3>4. Shipping ***</h3>
       <p>
         Delivery times vary based on suppliers. We are not liable for courier or supplier delays.
       </p>
