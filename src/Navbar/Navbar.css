@@ -38,6 +38,9 @@
   margin-top: 15px;
  
 }
+a{
+    text-decoration: none;
+}
 .dott hr{
     color: #040000;
     background-color: black;
@@ -63,6 +66,9 @@
     margin-top: 55%;
 
     
+}
+.nav-menu.active{
+    border-bottom: 2px solid blue;
 }
 
    

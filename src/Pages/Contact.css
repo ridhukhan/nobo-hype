@@ -1,0 +1,17 @@
+.contactmain{
+    display: flex;
+    justify-content: space-between;
+margin-top: 50%;
+}
+.contactus img{
+    width: 27px;
+    height: 30px;
+    border-radius: 50%;
+}
+.contactus a{
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 2px;
+    box-shadow: 2px 6px 10px #000;
+ 
+}
