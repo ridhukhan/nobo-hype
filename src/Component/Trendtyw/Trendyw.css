@@ -1,7 +1,7 @@
 /* --- Base: Mobile First --- */
 .trendymain {
   width: 100%;
-  min-height: 40vh;
+  min-height: 30vh;
   margin-top: 5%;
   display: flex;
   overflow-x: auto;
