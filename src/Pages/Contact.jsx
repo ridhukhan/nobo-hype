@@ -2,9 +2,9 @@ import React from 'react'
 //import Navbar from '../Component/Navbar'
 //import Navbar from '../Component/Navbar'
 import fbpic from '../assets/fb.png'
-import insta from '../Assets/instagram.png'
-import whatsapp from '../Assets/whatsapp.jpeg'
-import call from '../Assets/call.png'
+import insta from '../assets/instagram.png'
+import whatsapp from '../assets/whatsapp.jpeg'
+import call from '../assets/call.png'
 import './Contact.css'
 const Contact = () => {
   return (
