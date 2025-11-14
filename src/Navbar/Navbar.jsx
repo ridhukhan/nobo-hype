@@ -4,6 +4,7 @@ import './Navbar.css'
 import PrivecyPolicy from '../Pages/PrivecyPolicy'
 const Navbar = () => {
   const [openmenu,setOpenmenu]=useState(false)
+  
   return (
     <div className='NavBar'>
         <ul>
@@ -24,17 +25,18 @@ const Navbar = () => {
     <div className='menubar'>
       <ul>
         <li>
-          <Link to="/PrivecyPolicy">Privecy & Policy</Link>
+          <Link to="/PrivecyPolicy">Privecy & Policy</Link><hr />
         </li>
         <li>
-          <Link to="/TermsCondition">Terms & Service</Link>
+          <Link to="/TermsCondition">Terms & Service</Link><hr />
         </li>
 
       </ul>
-    </div>
-  ):null
-}
+      <button onClick={()=>setOpenmenu(false)}>Exit</button>
 
+    </div>
+  ) : null 
+}
     </div>
   )
 }
