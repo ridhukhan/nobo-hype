@@ -27,7 +27,7 @@ try {
     email:email,
     address:address
   }
-  const res=await axios.post("http://localhost:3000/api/order",fromData)
+  const res=await axios.post("https://nobo-hype-backend.onrender.com/api/order",fromData)
   alert("order confirmed")
   console.log(res)
   return setLoading(false)
