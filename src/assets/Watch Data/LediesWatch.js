@@ -22,7 +22,7 @@ const lediesw =[
         img1: mainw1,
                 img2:mainw2,
                 img3:mainw3,
-        mame:"cgfytjfyfmmjufyffyf",
+        name:"cgfytjfyfmmjufyffyf",
         price:20
     },
      {
@@ -31,7 +31,7 @@ const lediesw =[
         img1: poshiw1,
                 img2:poshiw2,
                 img3:poshiw3,
-        mame:"cgfytjfyfmmjufyffyf",
+        name:"cgfytjfyfmmjufyffyf",
         price:20
     }, {
         id:3,
@@ -39,7 +39,7 @@ const lediesw =[
          img1: poshi1,
                 img2:poshi2,
                 img3:poshi3,
-        mame:"cgfytjfyfmmjufyffyf",
+        name:"cgfytjfyfmmjufyffyf",
         price:20
     }, {
         id:4,
@@ -47,7 +47,7 @@ const lediesw =[
          img1:quartzw1,
                 img2:quartzw2,
                 img3:quartzw3,
-        mame:"cgfytjfyfmmjufyffyf",
+        name:"cgfytjfyfmmjufyffyf",
         price:20
     }
 ]

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Lediesw.css'
 import { useNavigate } from 'react-router-dom'
-import lediesw from '../../assets/Watch Data/LediesWatch'
+import lediesw from '../../assets/Watch Data/LediesWatch.js'
 const Lediesw = () => {
   const navigate =useNavigate()
   return (
@@ -15,7 +15,7 @@ const Lediesw = () => {
   <img src={lediespro.img}/>
 </div>
 <div>
-  <h2>{lediespro.mame}</h2>
+  <h2>{lediespro.name}</h2>
   <h3>
     price$ {lediespro.price}
   </h3>
